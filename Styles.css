@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+  background-image: url("OrderBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Red Hat Display", sans-serif;
+  width: 1440px;
+  height: 700px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.main-content {
+  border-radius: 40px;
+  background-color: white;
+  border-width: 2px;
+  width: 550px;
+  height: 670px;
+  margin-left: 450px;
+}
+p {
+  font-size: 16px;
+  text-align: center;
+}
+.image {
+  width: 550px;
+  height: 270px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.annual {
+  font-weight: bold;
+}
+.change {
+  list-style: none;
+  display: inline-block;
+}
+.change-link {
+  text-decoration: none;
+}
+.proceed-button {
+  background-color: hsl(245, 75%, 52%);
+  padding: 15px 120px;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(119, 228, 243, 0.2),
+    0 6px 20px 0 rgba(119, 228, 243, 0.2);
+}
+.proceed-button:hover {
+  color: hsl(224, 23%, 55%);
+  box-shadow: 0 8px 16px 0 rgba(119, 228, 243, 0.2),
+    0 8px 25px 0 rgba(119, 228, 243, 0.2);
+}
+.proceed {
+  text-decoration: none;
+  color: white;
+}
+.cancel {
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+  margin-top: 20px;
+}
+a {
+  color: hsl(245, 75%, 52%);
+}
+a:hover {
+  color: hsl(223, 47%, 23%);
+}
